@@ -1,0 +1,41 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    animation-name: hey;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes hey{
+    0%{
+        top: 0%;
+        transform: rotate(0deg);
+        border-radius: 0px;
+        background-color: yellow;
+        
+    }
+    50%{
+        top:20%;
+        transform: rotate(360deg);
+        border-radius: 50%;
+        /* background-color: red; */
+
+    }
+    100%{
+        transform: rotate(0deg);
+        /* border-radius: 100%; */
+        /* background-color: blueviolet; */
+        top: 0%;
+
+    }
+    50%{
+        bottom:20%;
+        transform: rotate(360deg);
+        border-radius: 50%;
+        /* background-color: red; */
+
+    }
+}
